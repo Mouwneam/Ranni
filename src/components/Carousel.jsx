@@ -6,7 +6,7 @@ const Carousel = (props) => {
       <img 
         src={props.info.img} 
         alt=""
-        className="max-w-[400px] min-w-[250px]" 
+        className="max-w-[400px] max-md:w-[75%]" 
       />
       <div className="p-10 shadow-lg md:w-2/3">
         <h5 className="text-2xl font-bold">
