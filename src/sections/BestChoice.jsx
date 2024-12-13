@@ -28,7 +28,7 @@ const BestChoice = () => {
               <p className='text-lg font-bold text-yellow-500'>
                 {choice.title}
               </p>
-              <p className='mt-2'>
+              <p className='mt-2 max-sm:text-sm'>
                 {choice.description}
               </p>
             </div>
