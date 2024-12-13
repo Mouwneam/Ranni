@@ -3,11 +3,11 @@ import { bestChoices } from '../constants';
 
 const BestChoice = () => {
   return (
-    <section className="max-sm:h-[1200px] h-[920px] relative">
+    <section className="max-sm:h-[1400px] h-[920px] relative">
       <img 
         src={bgImg} 
         alt="" 
-        className='absolute brightness-[.25] h-screen sm:h-[920px] max-sm:h-[1100px] object-cover w-full'  
+        className='absolute brightness-[.25] h-screen sm:h-[920px] max-sm:h-[1200px] object-cover w-full'  
       />
       <div className='absolute ml-[150px] my-[120px] w-[40%] max-lg:w-[60%] 
       max-xl:w-[50%] max-md:ml-[60px]'>

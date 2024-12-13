@@ -8,7 +8,7 @@ const OurChef = () => {
       <img 
         src={chef} 
         alt="" 
-        className='max-w-[500px] min-w-[300px] max-md:w-[full] rounded-md'  
+        className='max-w-[500px] max-md:w-[80%] rounded-md'  
       />
 
       <div className='w-[60%]'>
