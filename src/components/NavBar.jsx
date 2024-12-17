@@ -27,7 +27,7 @@ const NavBar = () => {
     <section className='pt-8 bg-black pb-6 relative'>
       <nav className='flex flex-row justify-between text-xl font-Palanquin mx-4
       px-7 items-center'>
-        <Link href="/" className='font-bold text-yellow-400 text-2xl'>
+        <Link to="/" className='font-bold text-yellow-400 text-2xl'>
           Ranni De Cafe
         </Link>
         <ul className='flex flex-row gap-9 max-md:hidden'>
