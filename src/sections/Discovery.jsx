@@ -9,12 +9,6 @@ const Discovery = () => {
 
   let [menu, setMenu] = useState(0);
 
-  const [productsItem, setProductsItem] = useState(null);
-
-  useEffect(() => {
-      setProductsItem(productsItem => products)
-  }, [])
-
   function handleMenu(index){
     setMenu(index);
   }
