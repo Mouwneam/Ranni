@@ -31,7 +31,7 @@ const NewDishes = () => {
 
 
   return (
-    <section className=" w-full mt-28 h-screen max-md:mb-[400px]">
+    <section className=" w-full mt-28 h-screen max-md:mb-[400px] mb-28">
       <div className="flex flex-col justify-center items-center">
         <h6 className="text-slate-500 text-lg">NEW DISHES</h6>
         <h5 className="text-4xl font-bold">
