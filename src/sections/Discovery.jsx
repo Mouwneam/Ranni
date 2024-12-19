@@ -78,7 +78,7 @@ const Discovery = () => {
             Products
         </h4>
       
-        <div className="grid gap-10 grid-cols-4 m-20 max-lg:grid-cols-3">
+        <div className="grid gap-10 grid-cols-4 m-20 max-lg:grid-cols-3 max-sm:grid-cols-1 max-sm:ml-0">
               {products.map((productItem) => (
                   <ProductCard data={productItem} key={productItem.id}></ProductCard>
               ))}
