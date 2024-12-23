@@ -53,7 +53,7 @@ const CartDetail = () => {
             })}
           </div>
         </div>
-        <div className='bg-white p-10 rounded-md w-[30%] h-[300px] max-lg:w-[400px] '>
+        <div className='bg-white p-10 rounded-md w-[30%] h-[300px] max-lg:w-[400px] max-sm:w-[250px]'>
             <p className='text-3xl font-semibold'>Summary</p>
             <div className='mt-5 text-lg flex flex-col gap-3'>
               <div className='flex  justify-between'>
