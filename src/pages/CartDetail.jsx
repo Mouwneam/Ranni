@@ -39,7 +39,7 @@ const CartDetail = () => {
       <Header></Header>
       <NavBar></NavBar>
 
-      <div className='flex flex-row gap-7  mt-8 px-10 xl:mx-32 max-lg:flex-col'>
+      <div className='flex flex-row max-sm:items-center gap-7  mt-8 px-10 xl:mx-32 max-lg:flex-col'>
         <div className='w-[800px] max-lg:w-full'>
           <div className='text-3xl font-semibold mb-10 bg-white p-4 rounded-md'>
             {cartQuantityText}

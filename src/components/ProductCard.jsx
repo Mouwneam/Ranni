@@ -8,7 +8,7 @@ const ProductCard = (props) => {
   const { addToCart} = useContext(ShopContext);
 
   return (
-    <div className="flex flex-col group max-sm:flex-row gap-4" >
+    <div className="flex flex-col group max-sm:flex-row gap-4 relative" >
         <div className="relative max-sm:w-[100px]">
             <Link to={`products/${props.data.id}`}
             className="">
