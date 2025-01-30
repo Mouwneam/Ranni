@@ -34,7 +34,7 @@ const PreFooter = () => {
                 ))}
             </div>
             <p className="text-center">
-                Copyright &#169; 2024 Spyropress. All rights reserved
+                Copyright &#169; 2025 Made by Aieb Mouwneam. All rights reserved
             </p>
         </section>
     </div>
